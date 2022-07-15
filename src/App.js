@@ -1,11 +1,18 @@
 import './App.css';
 
-function App() {
+const styledText ={
+  fontsize: '25px',
+  textAlign: 'center',
+  margin: '40px',
+  border: '1px solid green'
+},
+
+export default function Example() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
+    <div style={styledText}>
+      <p>Customized Text</p>
     </div>
-  );
+  )
 }
 
-export default App;
+ 
